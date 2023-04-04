@@ -1,8 +1,5 @@
 
 let multer = require("multer")
-// let imgpath=require("../uploads")
-
-console.log(__dirname)
 
 const imgconfig = multer.diskStorage({
     destination: (req, file, callback) => {

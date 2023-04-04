@@ -12,6 +12,6 @@ app.use("/", express.static("./public"));
 
 app.use("/newimage", imageRoutes)
 
-app.listen(port, () => console.log(`App listening on http://localhost:${port} !`));
+app.listen(port, () => console.log(`App listening on http://localhost:${port}!`));
 
 module.exports = app;
